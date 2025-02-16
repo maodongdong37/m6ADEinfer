@@ -1,0 +1,10 @@
+Package: m6ADEinfer
+Type: Package
+Title: Predicting the benefit of anti-m6A therapy in cancer patients based on the characteristics of cancer patients
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <maoxudong@somewhere.net>
+Description: This software is based on a generalized random forest model that predicts the expected benefit of anti-m6A treatment for cancer patients, utilizing both clinical features and bulk transcriptomic characteristics. The prediction is calculated using the five-year restricted mean survival time. You are required to prepare a data frame containing clinical features such as age, gender, stage, grade, and gene features represented by Entrez IDs. Missing values are allowed. Use the predict_m6a_benifit() function provided in this package to make predictions. The output is a relative value, which allows you to identify patients who are most likely to benefit from anti-m6A treatment within a group of cancer patients.
+License: *
+Encoding: UTF-8
+LazyData: true
